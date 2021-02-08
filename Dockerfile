@@ -9,4 +9,5 @@ RUN echo 'nameserver 8.8.8.8' > /etc/resolv.conf &&\
     . $HOME/.cargo/env &&\
     cargo install --git https://github.com/Fluidex/plonkit
 
-RUN plonkit --version
+RUN . $HOME/.cargo/env &&\
+    plonkit --version
