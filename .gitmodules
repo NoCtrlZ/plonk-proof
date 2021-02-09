@@ -1,3 +1,6 @@
 [submodule "plonkit"]
 	path = plonkit
 	url = https://github.com/Fluidex/plonkit
+[submodule "aztec"]
+	path = aztec
+	url = https://github.com/AztecProtocol/aztec-ganache-starter-kit

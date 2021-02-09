@@ -1,5 +1,5 @@
 # Plonk Proof
-This is zkp app using plonk circuit
+This is zkp app using plonk protocol.
 
 ## Premise
 
