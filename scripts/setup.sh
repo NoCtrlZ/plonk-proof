@@ -7,3 +7,6 @@ cargo build -p plonkit
 yarn compile
 yarn witness
 yarn convert
+yarn gen-proof
+yarn verify-key
+yarn gen-sc
