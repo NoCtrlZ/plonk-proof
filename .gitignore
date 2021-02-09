@@ -10,3 +10,5 @@ circuit.r1cs.json
 witness.*
 proof.*
 public.json
+vk.bin
+verifier.sol
