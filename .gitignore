@@ -7,3 +7,6 @@ circuit.r1cs
 circuit.sym
 circuit.wasm
 circuit.r1cs.json
+witness.*
+proof.*
+public.json
