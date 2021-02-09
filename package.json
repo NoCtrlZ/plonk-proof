@@ -1,9 +1,11 @@
 {
   "name": "plonk-proof",
   "version": "1.0.0",
-  "description": "## Setup ``` $ sh scripts/setup.sh ```",
+  "description": "This is zkp app using plonk circuit",
   "main": "index.js",
   "scripts": {
+    "compile": "yarn circom circuit.circom --r1cs --wasm --sym -v",
+    "convert": "yarn snarkjs r1cs export json circuit.r1cs circuit.r1cs.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/NoCtrlZ/plonk-proof#readme",
   "dependencies": {
-    "circom": "0.0.35",
-    "snarkjs": "0.1.0"
+    "circom": "0.5.33",
+    "circomlib": "0.3.0",
+    "snarkjs": "0.3.44"
   }
 }

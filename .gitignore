@@ -2,3 +2,8 @@
 *.key
 package-lock.json
 node_modules
+circuit.json
+circuit.r1cs
+circuit.sym
+circuit.wasm
+circuit.r1cs.json
