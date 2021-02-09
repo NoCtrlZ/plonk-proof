@@ -1,6 +1,11 @@
 # Plonk Proof
 
-## Execute
+## Setup
+```
+$ sh scripts/setup.sh
+```
+
+## Command
 ```
 $ cargo run -p plonkit
 ```
