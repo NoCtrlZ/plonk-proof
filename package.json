@@ -12,7 +12,7 @@
     "gen-sc": "yarn plonkit generate-verifier --verification_key vk.bin --sol verifier.sol",
     "verify-proof": "yarn plonkit verify --proof proof.bin --verification_key vk.bin",
     "plonkit": "./target/debug/plonkit",
-    "clean": "rm circuit.json circuit.r1cs circuit.r1cs.json circuit.sym circuit.wasm witness.json witness.wtns",
+    "clean": "rm circuit.json circuit.r1cs circuit.r1cs.json circuit.sym circuit.wasm witness.json witness.wtns proof.* vk.bin verifier.sol public.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

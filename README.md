@@ -21,3 +21,8 @@ $ sh scripts/setup.sh
 ```
 $ yarn plonk
 ```
+
+## Reference
+[Aztec Introduction](https://medium.com/aztec-protocol/an-introduction-to-aztec-47c70e875dc7)  
+[Tornado Cash](https://tornado-cash.medium.com/introducing-private-transactions-on-ethereum-now-42ee915babe0)  
+[Plonk](https://vitalik.ca/general/2019/09/22/plonk.html)
